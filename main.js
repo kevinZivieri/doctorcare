@@ -68,6 +68,11 @@ function closeMenu() {
     document.body.classList.remove('menu-expandido')
 };
 
+function instaClose() {
+    if (window.innerWidth >= 1024) {    
+    document.body.classList.remove('menu-expandido')}
+};
+
 ScrollReveal({
     origin: 'top',
     distance: '30px',
